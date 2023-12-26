@@ -1,7 +1,8 @@
+#include "Game.h"
+
 #include <iostream>
 #include <vector>
 #include <string>
-#include "Game.h"
 
 using namespace std;
 
@@ -13,7 +14,11 @@ int main()
     {
         cout << word << " ";
     }
-    Stone s = g.draw();
-    cout << s.getNum() << s.getType() << endl;
     cout << endl;
+    Stone* s = g.draw();
+    int j = 1;
+    while (s != nullptr) {
+        cout << "第" << j++ << "张牌: " << s->getNum() << "" << s->getType() << endl;
+        s = g.draw();
+    }
 }

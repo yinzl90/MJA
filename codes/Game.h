@@ -13,6 +13,7 @@ class Game {
 
 public:
     Game();
-    Stone draw();
+    Stone* draw();
     void endGame();
+    void restart();
 };

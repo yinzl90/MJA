@@ -1,0 +1,4 @@
+D:/Code/MJA/build/CMakeFiles/MJA_Qt.dir
+D:/Code/MJA/build/CMakeFiles/edit_cache.dir
+D:/Code/MJA/build/CMakeFiles/rebuild_cache.dir
+D:/Code/MJA/build/CMakeFiles/MJA_Qt_autogen.dir

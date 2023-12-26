@@ -1,50 +1,24 @@
+
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "C/C++: g++.exe 生成和调试活动文件",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "${workspaceFolder}\\out\\${fileBasenameNoExtension}.exe",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${workspaceFolder}\\out",
-      "environment": [],
-      "externalConsole": false,
-      "MIMode": "gdb",
-      "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
-      "setupCommands": [
+    "version": "0.2.0",
+    "configurations": [
         {
-          "description": "为 gdb 启用整齐打印",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        },
-        {
-          "description": "将反汇编风格设置为 Intel",
-          "text": "-gdb-set disassembly-flavor intel",
-          "ignoreFailures": true
+            "name": "QtBuild",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "C:/Qt/6.6.1/mingw_64/bin"
+                }
+            ],
+            "externalConsole": false,
+            "miDebuggerPath": "C:/Qt/Tools/mingw1120_64/bin/gdb.exe",
+            "visualizerFile": "c:\\Users\\sarahtyt\\AppData\\Roaming\\Code\\User\\workspaceStorage\\a9805ece6233db56fd10f4bd899c8c67\\tonka3000.qtvsctools\\qt.natvis.xml"
         }
-      ],
-      "preLaunchTask": "C/C++: g++.exe 生成活动文件"
-    },
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/Code/MJA/codes",
-      "program": "c:/Code/MJA/codes/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
-        {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ]
-    }
-  ]
+    ]
 }

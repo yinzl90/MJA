@@ -102,5 +102,6 @@
     "stdexcept": "cpp",
     "streambuf": "cpp",
     "typeinfo": "cpp"
-  }
+  },
+  "qtConfigure.qtKitDir": "C:/Qt/6.6.1/mingw_64"
 }

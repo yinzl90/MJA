@@ -1,3 +1,5 @@
+#pragma once
+
 enum MJType {
     Unknown,
     Tuo,

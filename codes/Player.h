@@ -1,16 +1,22 @@
+#pragma once
+
 #include "Stone.h"
+
+#include <vector>
+
+using namespace std;
 
 class Player {
     vector<Stone> shouPai;
     vector<Stone> qiPai;
     vector<Stone> chiPengGang;
-    Player shangJia;
-    Player xiaJia;
-    Player duiJia;
+    Player* shangJia = nullptr;
+    Player* xiaJia = nullptr;
+    Player* duiJia = nullptr;
     bool tingPai = false;
 
 public:
-    void Player();
+    Player();
     void setShangJia(Player p);
     void setDuiJia(Player p);
     void setXiaJia(Player p);

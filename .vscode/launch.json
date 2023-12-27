@@ -2,6 +2,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+        
         {
             "name": "QtBuild",
             "type": "cppdbg",
@@ -18,7 +19,7 @@
             ],
             "externalConsole": false,
             "miDebuggerPath": "C:/Qt/Tools/mingw1120_64/bin/gdb.exe",
-            "visualizerFile": "c:\\Users\\sarahtyt\\AppData\\Roaming\\Code\\User\\workspaceStorage\\a9805ece6233db56fd10f4bd899c8c67\\tonka3000.qtvsctools\\qt.natvis.xml"
+            "visualizerFile": "c:\\Users\\yinzhengliang\\AppData\\Roaming\\Code\\User\\workspaceStorage\\d0ca27fe5895d52ac1197e4678afa79e\\tonka3000.qtvsctools\\qt.natvis.xml"
         }
     ]
 }
